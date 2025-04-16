@@ -31,7 +31,7 @@ The only good subarray is the entire array.
 
 ## 🧠 Approach
 
-We use a **sliding window** + **hash map** to efficiently count pairs within a window.  
+We use a **sliding window** + **hash map** to count pairs within a window efficiently.  
 For each window, we maintain a count of how many valid pairs it has.  
 If the number of pairs is at least `k`, all subarrays ending at the current `right` index and starting from current `left` or after are **good**.
 
@@ -69,9 +69,9 @@ class Solution(object):
         return result
 ```
 ## 📺 Video Explanation & More
-## 📌 Watch on @Coding_Moves – your hub for coding tips, algorithm tricks, and AI projects!
+## 📌 Watch on <a href="https://www.youtube.com/@Coding_Moves">CodingMoves</a> – your hub for coding tips, algorithm tricks, and AI projects!
 ## 🔔 Subscribe and join the journey to becoming a top-tier programmer.
 
 #📬 Contact
-+ Made with ❤️ by @Coding_Moves
++ Made with ❤️ by <a href="https://www.youtube.com/@Coding_Moves">CodingMoves</a>
 + Let's connect and grow together as coders!
